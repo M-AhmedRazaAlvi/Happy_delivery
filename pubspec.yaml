@@ -1,0 +1,34 @@
+name: happy_delivery
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  like_button: ^2.0.3
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^0.23.0+1
+  sliding_up_panel: ^2.0.0+1
+  shared_preferences: ^2.0.9
+  google_maps_flutter: ^2.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/font/
+
